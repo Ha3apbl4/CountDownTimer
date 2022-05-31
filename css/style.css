@@ -1,0 +1,115 @@
+body {
+	background-image: url(../images/newyear.png);
+	background-size: cover;
+	min-height: 100vh;
+	background-position: center center;
+	font-family: 'Poppins', sans-serif;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+h1 {
+	font-weight: 400;
+	font-size: 4rem;
+	margin-top: -3rem;
+}
+.countdown {
+	display: flex;
+}
+.big__text {
+	font-weight: 700;
+	font-size: 6rem;
+	line-height: 1;
+	margin: 0 2.5rem;
+}
+.countdown__elements {
+	text-align: center;
+}
+.countdown__elements span {
+	font-size: 1.5rem;
+}
+
+.title,
+.big__text,
+.small__text {
+	color: #000;
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+		0 0 20px rgba(255, 255, 255, 0.8), 0 0 22px rgba(255, 255, 255, 0.8),
+		0 0 40px rgba(0, 0, 0, 0.8), 0 0 60px rgba(0, 0, 0, 0.8),
+		0 0 80px rgba(0, 0, 0, 0.8);
+}
+@media screen and (max-width: 768px) {
+	.countdown {
+		display: flex;
+		flex-direction: column;
+	}
+	.big__text {
+		margin: 1.5rem 0 0.5rem 0;
+	}
+}
+@media screen and (max-width: 467px) {
+	.title {
+		padding: 0 1.5rem 0;
+		font-size: 3rem;
+	}
+}
+@media screen and (max-width: 462px) {
+	.title {
+		padding: 0 1.5rem 0;
+		font-size: 3rem;
+	}
+}
+@media screen and (max-width: 455px) {
+	.title {
+		padding: 0 1.5rem 0;
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.title {
+		padding: 0 1.5rem 0;
+		font-size: 3rem;
+	}
+}
+@media screen and (max-width: 398px) {
+	.title {
+		font-size: 2.5rem;
+	}
+	.big__text {
+		font-size: 5rem;
+	}
+}
+@media screen and (max-width: 375px) {
+	.title {
+		font-size: 2.5rem;
+	}
+	.big__text {
+		font-size: 5rem;
+	}
+}
+@media screen and (max-width: 392px) {
+	.title {
+		font-size: 2.5rem;
+	}
+	.big__text {
+		font-size: 5rem;
+	}
+}
+@media screen and (max-width: 320px) {
+	.title {
+		padding: 0 0.5rem 0;
+	}
+}
+@media screen and (max-width: 335px) {
+	.title {
+		padding: 0 0.5rem 0;
+	}
+}
+@media screen and (max-width: 339px) {
+	.title {
+		padding: 0 0.5rem 0;
+	}
+}
